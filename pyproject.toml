@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ai-tsumutsumu-delta"
+version = "0.1.0"
+description = ""
+authors = ["Chroma7p <nahco3,hcl@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+discord = "^2.3.2"
+asyncio = "^3.4.3"
+python-dotenv = "^1.0.1"
+openai = "^1.13.3"
+tiktoken = "^0.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
